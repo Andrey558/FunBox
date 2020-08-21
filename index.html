@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <section class="cats">
+    <div class="container">
+      <div class="cats__title">
+        <h1 class="cats__title-title">Ты сегодня покормил кота?</h1>
+        <div class="cats__items">
+          <div class="cats__item">
+            <div class="cats__wrapper-gras popup-btn">
+              <div class="cats__item-box">
+                <p class="cats__item-text">Сказочное заморское яство</p>
+                <h2 class="cats__item-title">Нямушка</h2>
+                <h3 class="cats__item-subtitle">с фуа-гра</h3>
+                <p class="cats__item-text2"><span>10</span> порций<br>
+                  мышь в подарок</p>
+              </div>
+              <img src="./img/cats.png" class="cats__item-img gras">
+              <p class="gras__price">0,5 <span>кг</span></p>
+            </div>
+            <p class="cats__item-description">Чего сидишь? Порадуй котэ, <a href=""
+                class="cats__item-link popup-btn">купи.</a></p>
+
+          </div>
+          <div class="cats__item">
+            <div class="cats__wrapper-fish popup-btn">
+              <div class="cats__item-box">
+                <p class="cats__item-text">Сказочное заморское яство</p>
+                <h2 class="cats__item-title">Нямушка</h2>
+                <h3 class="cats__item-subtitle">с рыбой</h3>
+                <p class="cats__item-text2"><span>40</span> порций <br>
+                  <span>2</span> мыши в подарок</p>
+              </div>
+              <img src="./img/cats.png" class="cats__item-img fish">
+              <p class="fish__price">2 <span>кг</span></p>
+            </div>
+            <p class="cats__item-description">Головы щучьи с чесноком да свежайшая сёмгушка.</p>
+          </div>
+          <div class="cats__item ">
+            <div class="cats__wrapper-chicken">
+              <div class="cats__item-box absent">
+                <p class="cats__item-text">Сказочное заморское яство</p>
+                <h2 class="cats__item-title">Нямушка</h2>
+                <h3 class="cats__item-subtitle">с курой</h3>
+                <p class="cats__item-text2"><span>100</span> порций <br>
+                  <span>5</span> мышей в подарок <br>
+                  заказчик доволен</p>
+              </div>
+              <img src="./img/cats.png" class="cats__item-img chicken">
+              <p class="chicken__price">5 <span>кг</span></p>
+            </div>
+            <p class="cats__item-description"><span>Печалька, с курой закончился.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="popup">
+    <div class="popup-content"><br>
+      <button class="popup-close">&times;</button>
+      <h4 class="popup-header">Выберите <br><br>колличество</h4>
+      <div class="main-form">
+        <form action="#">
+          <p><input type="number" size="3" name="num" min="1" max="20" value="1"></p><br>
+          <button class="main-form-btn" type="submit">Купить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
